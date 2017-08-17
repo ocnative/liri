@@ -1,0 +1,212 @@
+    1  ls -al ~/.ssh
+    2  ssh-keygen -t rsa -b 4096 -C "bill.roush@outlook.com"
+    3  eval "$(ssh-agent -s)"
+    4  ssh-add ~/.ssh/id_rsa
+    5  clip < ~/.ssh/id_rsa.pub
+    6  ssh -T git@github.com
+    7  exit
+    8  exir
+    9  exit
+   10  pwd
+   11  ls
+   12  ls -la
+   13  cls
+   14  clear
+   15  ls -la
+   16  man ls
+   17  clear
+   18  ls -la
+   19  pwd
+   20  cd ..
+   21  cd ..
+   22  ls -la Pr*
+   23  cd 'Program Files'
+   24  ls -la
+   25  cd ~
+   26  ls -la
+   27  cd Desktop/
+   28  mkdir June05
+   29  rmdir June05/
+   30  mkdir June05
+   31  rmdir June05/
+   32  ls -la
+   33  mkdir first_day_stuff
+   34  cd first_day_stuff/
+   35  touch name of first-day.html
+   36  pwd
+   37  mkdir {one_folder,second_folder}
+   38  touch {one.html,two.html}
+   39  explorer .
+   40  cd ..
+   41  explorer .
+   42  cd first_day_stuff/
+   43  explorer .
+   44  touch html-bio-with-css.html
+   45  git
+   46  git add html-bio-with-css.html 
+   47  ls
+   48  nano
+   49  edit
+   50  ps -a
+   51  kill 13620
+   52  kill 12612
+   53  ps -a
+   54  exit
+   55  exit
+   56  pwd
+   57  cd Desktop/
+   58  mkdir giphy-viewer
+   59  cd giphy-viewer/
+   60  echo "# giphy_viewer" >> README.md
+   61  ls
+   62  git init
+   63  git add README.md 
+   64  git commit -m "first commit"
+   65  git remote add origin git@github.com:ocnative/giphy_viewer.git
+   66  git push -u origin master
+   67  ifconfig
+   68  ipconfig
+   69  cd ..
+   70  mkdir Purple
+   71  cd Purple/
+   72  git commit -m "first commit"
+   73  git init
+   74  git add README.md 
+   75  git commit -m "first commit"
+   76  git remote add origin git@github.com:ocnative/Purple.git
+   77  git push -u origin master
+   78  ls
+   79  git status
+   80  git remote add origin git@github.com:ocnative/Purple.git git@github.com:ocnative/Purple.git
+   81  git remote add origin git@github.com:ocnative/Purple.git
+   82  git status
+   83  echo "# Purple Team Project" >> README.md
+   84  git commit -m "first commit"
+   85  git push -u origin master
+   86  git remote add origin git@github.com:ocnative/Purple.git
+   87  git push -u origin master
+   88  cd ..
+   89  rm -R Purple
+   90  ls -l
+   91  git clone git@github.com:ocnative/Purple.git
+   92  cd Purple/
+   93  ls -l
+   94  git checkout -b
+   95  git checkout -b adduser
+   96  git show branch
+   97  git show -branch
+   98  git show-branch
+   99  git branch -d adduser 
+  100  git show-branch
+  101  git push -u origin adduser
+  102  git show-branch
+  103  git checkout -b master
+  104  git checkout master
+  105  cd ..
+  106  cd nyt4theBoy/
+  107  git clone git@github.com:ocnative/nyt4theBoy.git
+  108  git status
+  109  git push -u origin master
+  110  ls -l
+  111  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  112  git status
+  113  git push -u origin master
+  114  echo "# NYT Times Search Customized for the Boy" >> README.md
+  115  git status
+  116  git commit -m "second commit"
+  117  git push -f origin master
+  118  git add -A .
+  119  cd ..
+  120  rm -R nyt4theBoy/
+  121  mkdir nyt4theBoy
+  122  cd nyt4theBoy/
+  123  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  124  git status 
+  125  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  126  ls -l
+  127  ls -l
+  128  git status
+  129  touch README.md
+  130  echo "# NYT Times Search Customized for the Boy" >> README.md
+  131  git commit -m "first commit"
+  132  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  133  git push -f origin master
+  134  git init
+  135  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  136  git push -u origin master
+  137  git remote add origin git@github.com:ocnative/nyt4theBoy.git
+  138  git st
+  139  git status 
+  140  git add -A .
+  141  git commit -m "first commit"
+  142  git push -u origin master
+  143  git pull -u origin master
+  144  git pull -f origin master
+  145  git pull -r origin master
+  146  git rebase --abort
+  147  git status 
+  148  git status 
+  149  git add -A .
+  150  git commit -m "commit forrest's source files"
+  151  git push -u origin master
+  152  git pull -u origin master
+  153  git pull origin master
+  154  git pull -f origin master
+  155  git pull -r origin master
+  156  git push -f origin master
+  157  git status 
+  158  git add -A .
+  159  git push -f origin master
+  160  git status 
+  161  git commit -m "commit forrest's source files"
+  162  git status 
+  163  git rebase --continue
+  164  git add
+  165  git add .
+  166  git status 
+  167  git rebase --continue
+  168  git rebase --skip
+  169  git status 
+  170  history
+  171  cd ..
+  172  history > bash_history.txt
+  173  exit
+  174  exit
+  175  exit
+  176  node
+  177  cd Desktop/
+  178  cd node_js
+  179  ls -l n*
+  180  cd Node_js/
+  181  node
+  182  ls 
+  183  node
+  184  node helloWorld.js 
+  185  node sriracha.js 
+  186  node sriracha.js 
+  187  node argumentsAdd_js.js 3 3
+  188  node argumentsAdd_js.js 3 4
+  189  node calc.js 
+  190  node calc.js add 2 3
+  191  node calc.js add 2 3
+  192  node calc.js add 2 3
+  193  node calc.js add 2 3
+  194  node calc.js add 2 3
+  195  node calc.js add 2 3
+  196  node calc.js add 2 3
+  197  node run.js 
+  198  node Modularization_Ex_Run_js.js 
+  199  node Modularization_Ex_Run_js.js 
+  200  node run.js 
+  201  cd ..
+  202  npm install twitter
+  203  npm uninstall twitter
+  204  ls -l
+  205  cd liri
+  206  touch package.json
+  207  touch .gitignore
+  208  touch keys.js
+  209  touch random.txt
+  210  touch liri.js
+  211  npm install twitter
+  212  history > history.txt
