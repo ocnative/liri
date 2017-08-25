@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ocnative/liri/issues"
   },
-  "homepage": "https://github.com/ocnative/liri#readme"
+  "homepage": "https://github.com/ocnative/liri#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.81.0"
+  }
 }
